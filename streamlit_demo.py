@@ -48,7 +48,8 @@ def main():
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = None
     
-    file_path = '../../data/RAG document/manual_ko.pkl'
+    # file_path = '../../data/RAG document/manual_ko.pkl'
+    file_path = './data/manual_ko.pkl'
     model_id = 'OrionStarAI/Orion-14B-Chat-RAG'
     files_text = get_text(file_path)
     # text_chunks = get_text_chunks(files_text)
