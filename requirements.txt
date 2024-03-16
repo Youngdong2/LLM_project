@@ -1,0 +1,6 @@
+pysqlite3-binary
+langchain
+chromadb
+unstructured
+sentence-transformers
+loguru
